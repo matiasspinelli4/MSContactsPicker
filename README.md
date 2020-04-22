@@ -9,6 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Screenshot
+https://github.com/matiasspinelli4/MSContactsPicker/blob/master/MSContactsPicker.png
+
 ## Requirements
 
 ## Installation
