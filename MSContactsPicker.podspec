@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'MSContactsPicker/Classes/**/* {swift}'
-  s.resources    = 'MSContactsPicker/Classes/**/* {xib}'
+  s.source_files = 'MSContactsPicker/Classes/**/*.{swift}'
+  s.resources    = 'MSContactsPicker/Classes/**/*.{xib}'
   # s.resource_bundles = {
   #   'MSContactsPicker' => ['MSContactsPicker/Assets/*.png']
   # }
