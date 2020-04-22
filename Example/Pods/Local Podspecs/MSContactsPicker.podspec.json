@@ -1,0 +1,22 @@
+{
+  "name": "MSContactsPicker",
+  "version": "0.1.0",
+  "summary": "A short description of MSContactsPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/matiasspinelli4/MSContactsPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "matiasspinelli4": "matias.spinelli@wolox.com.ar"
+  },
+  "source": {
+    "git": "https://github.com/matiasspinelli4/MSContactsPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MSContactsPicker/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module MSContactsPicker {
+  umbrella header "MSContactsPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009B3BAA244FE3F9007D8211 /* MSContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009B3BA6244FE3F9007D8211 /* MSContactTableViewCell.xib */; };
+		009B3BAB244FE3F9007D8211 /* MSContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B3BA7244FE3F9007D8211 /* MSContactsViewController.swift */; };
+		009B3BAC244FE3F9007D8211 /* MSContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009B3BA8244FE3F9007D8211 /* MSContactsViewController.xib */; };
+		009B3BAF244FE411007D8211 /* MSContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B3BAE244FE411007D8211 /* MSContactTableViewCell.swift */; };
+		00CF6A25244E916900AADD42 /* MSContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF6A24244E916900AADD42 /* MSContact.swift */; };
+		00CF6A27244E9D6700AADD42 /* MSContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF6A26244E9D6700AADD42 /* MSContactsController.swift */; };
+		2092083D555E48AAA645B6BC26562D8A /* Pods-MSContactsPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FD3FF76401FEAE94BC6A5BCBDD4095 /* Pods-MSContactsPicker_Tests-dummy.m */; };
+		21276350C98533B83BB65478D0F8F010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		41FCA81A07A1C12E19538F5B1B99B299 /* Pods-MSContactsPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D98936BE4DCEEAF73B04268AAEA169 /* Pods-MSContactsPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		465A83CF25C552A007766E80A7A92FAD /* Pods-MSContactsPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D48C2EBD0C801ADCB11221E0948D9F4E /* Pods-MSContactsPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B8602E7C90CAB4CD65AAED8BA55141 /* MSContactsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5907E059C75266F386BA33904949D16 /* MSContactsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B37CE5E34E74E11422D3E9609FA3526E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C087814E7A99429CEADC6C8D715A8C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CF5FCB5805FF98981F0F500401C07C9A /* MSContactsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 373ADD0735CDB80BE69224E18A0174C4 /* MSContactsPicker-dummy.m */; };
+		D3A91E114A13D2AABEF5B918C1EA0073 /* Pods-MSContactsPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D683A814AFE6742F21E3246DA604EE56 /* Pods-MSContactsPicker_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15722DF5F92ED91414DEBB3BD9CED26A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4A3E9DF8F8DC6FCFC3C4F63D64F2D4;
+			remoteInfo = "Pods-MSContactsPicker_Example";
+		};
+		954C09E727C234C93E2B5BAAEDDCA8A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2815A27BFACE93BE34B7EFC2C0BE710F;
+			remoteInfo = MSContactsPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005511DD1EBA0BBFCF74E23BD2BE665C /* Pods-MSContactsPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSContactsPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		009B3BA6244FE3F9007D8211 /* MSContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MSContactTableViewCell.xib; path = MSContactsPicker/Classes/MSContactTableViewCell.xib; sourceTree = "<group>"; };
+		009B3BA7244FE3F9007D8211 /* MSContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSContactsViewController.swift; path = MSContactsPicker/Classes/MSContactsViewController.swift; sourceTree = "<group>"; };
+		009B3BA8244FE3F9007D8211 /* MSContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MSContactsViewController.xib; path = MSContactsPicker/Classes/MSContactsViewController.xib; sourceTree = "<group>"; };
+		009B3BAE244FE411007D8211 /* MSContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSContactTableViewCell.swift; path = MSContactsPicker/Classes/MSContactTableViewCell.swift; sourceTree = "<group>"; };
+		00CF6A24244E916900AADD42 /* MSContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MSContact.swift; path = MSContactsPicker/Classes/MSContact.swift; sourceTree = "<group>"; };
+		00CF6A26244E9D6700AADD42 /* MSContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MSContactsController.swift; path = MSContactsPicker/Classes/MSContactsController.swift; sourceTree = "<group>"; };
+		07FD3FF76401FEAE94BC6A5BCBDD4095 /* Pods-MSContactsPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSContactsPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		0893D30EDB8F481D78CEA1568829386E /* Pods_MSContactsPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSContactsPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBBEB39519BE0D6A62E89C6561CCC90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		21D98936BE4DCEEAF73B04268AAEA169 /* Pods-MSContactsPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSContactsPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		24178BFE416EFCCBC495E61F1832DAF5 /* Pods-MSContactsPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSContactsPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		30B9B5416806CA7F0006A8D75D09115D /* Pods-MSContactsPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSContactsPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		373ADD0735CDB80BE69224E18A0174C4 /* MSContactsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSContactsPicker-dummy.m"; sourceTree = "<group>"; };
+		40F55F550AA08E1675B259822CFD6B97 /* Pods-MSContactsPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSContactsPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53FA1A7CEA7A85EE48EBD064A8A9B8D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		62C94BD80333D0972ECCB2E13F1197FC /* Pods-MSContactsPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSContactsPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		63DEF3D896BB451BA2F61556BF830B8F /* Pods-MSContactsPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSContactsPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		82A5AF05E981FD3C720D5124F34AA73D /* Pods-MSContactsPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSContactsPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82AD425B41FC422F4FA8EFF1CB73EFF3 /* Pods-MSContactsPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSContactsPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		830D916D3287F667728E294F27A399D8 /* Pods_MSContactsPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSContactsPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7745E58AA52BCAB61C611EB49FD9A7 /* MSContactsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSContactsPicker-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1B1365DA44A670F6BAB4E1E627E4409 /* MSContactsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSContactsPicker.modulemap; sourceTree = "<group>"; };
+		B7506E1D443CCF5D1141A9A1407CF1EC /* MSContactsPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSContactsPicker-Info.plist"; sourceTree = "<group>"; };
+		B9354AFC3CD88835BE33B6F7CCB4FC21 /* Pods-MSContactsPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSContactsPicker_Tests-Info.plist"; sourceTree = "<group>"; };
+		BC00415F2536036560400CF4AF5BE276 /* MSContactsPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MSContactsPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF3D13EC6A099A8744B07D5AC6DC8051 /* Pods-MSContactsPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSContactsPicker_Example.modulemap"; sourceTree = "<group>"; };
+		D48C2EBD0C801ADCB11221E0948D9F4E /* Pods-MSContactsPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSContactsPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D683A814AFE6742F21E3246DA604EE56 /* Pods-MSContactsPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSContactsPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		DF64D44D62F749607894E8ECA92C718A /* Pods-MSContactsPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSContactsPicker_Example-Info.plist"; sourceTree = "<group>"; };
+		E5907E059C75266F386BA33904949D16 /* MSContactsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSContactsPicker-umbrella.h"; sourceTree = "<group>"; };
+		ECACFE220452398F1F92E7E2484C80E1 /* Pods-MSContactsPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSContactsPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F69DB5FFE28381C070CFE1F590011B1F /* Pods-MSContactsPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSContactsPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		FDA09247FB2C44CE43295B55198D00A8 /* MSContactsPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSContactsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC54621DE9F81315604F82714C79D80 /* MSContactsPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSContactsPicker.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44B8C47806A7425CF79C1E01EAA0BC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37CE5E34E74E11422D3E9609FA3526E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FD26A1ADDCE6324BA5F7E124E19FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21276350C98533B83BB65478D0F8F010 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEFB21CEDE663E38A78D4D0B3B5C150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C087814E7A99429CEADC6C8D715A8C64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A85A5E627C5AB431158EF0D3DDCB074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA09247FB2C44CE43295B55198D00A8 /* MSContactsPicker.framework */,
+				830D916D3287F667728E294F27A399D8 /* Pods_MSContactsPicker_Example.framework */,
+				0893D30EDB8F481D78CEA1568829386E /* Pods_MSContactsPicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56242603CB0F4B09240924E5A6440017 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F898E3D30B06288FE0838E37F3600690 /* Pods-MSContactsPicker_Example */,
+				832D0B9176461DB1039BB4965176704F /* Pods-MSContactsPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D530F672BFCA6DC5E9B99AF5E0BDAE5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0BBBEB39519BE0D6A62E89C6561CCC90 /* LICENSE */,
+				BC00415F2536036560400CF4AF5BE276 /* MSContactsPicker.podspec */,
+				53FA1A7CEA7A85EE48EBD064A8A9B8D0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		832D0B9176461DB1039BB4965176704F /* Pods-MSContactsPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F69DB5FFE28381C070CFE1F590011B1F /* Pods-MSContactsPicker_Tests.modulemap */,
+				005511DD1EBA0BBFCF74E23BD2BE665C /* Pods-MSContactsPicker_Tests-acknowledgements.markdown */,
+				40F55F550AA08E1675B259822CFD6B97 /* Pods-MSContactsPicker_Tests-acknowledgements.plist */,
+				07FD3FF76401FEAE94BC6A5BCBDD4095 /* Pods-MSContactsPicker_Tests-dummy.m */,
+				B9354AFC3CD88835BE33B6F7CCB4FC21 /* Pods-MSContactsPicker_Tests-Info.plist */,
+				D48C2EBD0C801ADCB11221E0948D9F4E /* Pods-MSContactsPicker_Tests-umbrella.h */,
+				ECACFE220452398F1F92E7E2484C80E1 /* Pods-MSContactsPicker_Tests.debug.xcconfig */,
+				30B9B5416806CA7F0006A8D75D09115D /* Pods-MSContactsPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-MSContactsPicker_Tests";
+			path = "Target Support Files/Pods-MSContactsPicker_Tests";
+			sourceTree = "<group>";
+		};
+		AAA7B5E22E1959935041C7F37B7D832A /* MSContactsPicker */ = {
+			isa = PBXGroup;
+			children = (
+				00CF6A26244E9D6700AADD42 /* MSContactsController.swift */,
+				00CF6A24244E916900AADD42 /* MSContact.swift */,
+				009B3BAE244FE411007D8211 /* MSContactTableViewCell.swift */,
+				009B3BA6244FE3F9007D8211 /* MSContactTableViewCell.xib */,
+				009B3BA7244FE3F9007D8211 /* MSContactsViewController.swift */,
+				009B3BA8244FE3F9007D8211 /* MSContactsViewController.xib */,
+				7D530F672BFCA6DC5E9B99AF5E0BDAE5 /* Pod */,
+				EEDE25E37608C1AE7CC8B3E326643EF9 /* Support Files */,
+			);
+			name = MSContactsPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1E81D578280388896DA91FC048E24AB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAA7B5E22E1959935041C7F37B7D832A /* MSContactsPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C1E81D578280388896DA91FC048E24AB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3A85A5E627C5AB431158EF0D3DDCB074 /* Products */,
+				56242603CB0F4B09240924E5A6440017 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEDE25E37608C1AE7CC8B3E326643EF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1B1365DA44A670F6BAB4E1E627E4409 /* MSContactsPicker.modulemap */,
+				FEC54621DE9F81315604F82714C79D80 /* MSContactsPicker.xcconfig */,
+				373ADD0735CDB80BE69224E18A0174C4 /* MSContactsPicker-dummy.m */,
+				B7506E1D443CCF5D1141A9A1407CF1EC /* MSContactsPicker-Info.plist */,
+				9A7745E58AA52BCAB61C611EB49FD9A7 /* MSContactsPicker-prefix.pch */,
+				E5907E059C75266F386BA33904949D16 /* MSContactsPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSContactsPicker";
+			sourceTree = "<group>";
+		};
+		F898E3D30B06288FE0838E37F3600690 /* Pods-MSContactsPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CF3D13EC6A099A8744B07D5AC6DC8051 /* Pods-MSContactsPicker_Example.modulemap */,
+				82A5AF05E981FD3C720D5124F34AA73D /* Pods-MSContactsPicker_Example-acknowledgements.markdown */,
+				82AD425B41FC422F4FA8EFF1CB73EFF3 /* Pods-MSContactsPicker_Example-acknowledgements.plist */,
+				D683A814AFE6742F21E3246DA604EE56 /* Pods-MSContactsPicker_Example-dummy.m */,
+				24178BFE416EFCCBC495E61F1832DAF5 /* Pods-MSContactsPicker_Example-frameworks.sh */,
+				DF64D44D62F749607894E8ECA92C718A /* Pods-MSContactsPicker_Example-Info.plist */,
+				21D98936BE4DCEEAF73B04268AAEA169 /* Pods-MSContactsPicker_Example-umbrella.h */,
+				63DEF3D896BB451BA2F61556BF830B8F /* Pods-MSContactsPicker_Example.debug.xcconfig */,
+				62C94BD80333D0972ECCB2E13F1197FC /* Pods-MSContactsPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-MSContactsPicker_Example";
+			path = "Target Support Files/Pods-MSContactsPicker_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23D56B15B75EC89B8A0CF243F3B2C43D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FCA81A07A1C12E19538F5B1B99B299 /* Pods-MSContactsPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6585105CE4D6C0DB35FBFC5ED39EF7CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465A83CF25C552A007766E80A7A92FAD /* Pods-MSContactsPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE0C9154130C4BD16588D7F323FC2E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B8602E7C90CAB4CD65AAED8BA55141 /* MSContactsPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0710B4FC1374AAC2B1745F668210698C /* Pods-MSContactsPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AB2C75B3B9A676C38E8B51D3493BA5 /* Build configuration list for PBXNativeTarget "Pods-MSContactsPicker_Tests" */;
+			buildPhases = (
+				6585105CE4D6C0DB35FBFC5ED39EF7CA /* Headers */,
+				3269A1C6C88881C8E2666218AC03F09C /* Sources */,
+				44B8C47806A7425CF79C1E01EAA0BC66 /* Frameworks */,
+				0FDBD2CA344FFB1D3388DFA970D58CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				589A58016FDC98AFF6F328F434C2A232 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSContactsPicker_Tests";
+			productName = "Pods-MSContactsPicker_Tests";
+			productReference = 0893D30EDB8F481D78CEA1568829386E /* Pods_MSContactsPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2815A27BFACE93BE34B7EFC2C0BE710F /* MSContactsPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A11934C756F56D754D21EFAEC8F4F17 /* Build configuration list for PBXNativeTarget "MSContactsPicker" */;
+			buildPhases = (
+				EFE0C9154130C4BD16588D7F323FC2E3 /* Headers */,
+				8A253315C45D396E9A45E410F7BD551F /* Sources */,
+				B9FD26A1ADDCE6324BA5F7E124E19FA4 /* Frameworks */,
+				806C7D16F82628E0905B58174506E426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSContactsPicker;
+			productName = MSContactsPicker;
+			productReference = FDA09247FB2C44CE43295B55198D00A8 /* MSContactsPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB4A3E9DF8F8DC6FCFC3C4F63D64F2D4 /* Pods-MSContactsPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF34B527F1795421B66F2A25CF854FE /* Build configuration list for PBXNativeTarget "Pods-MSContactsPicker_Example" */;
+			buildPhases = (
+				23D56B15B75EC89B8A0CF243F3B2C43D /* Headers */,
+				AE8DAB716DE49D84D8E95F462886C136 /* Sources */,
+				CCEFB21CEDE663E38A78D4D0B3B5C150 /* Frameworks */,
+				795DC041D6C428E8F2ED06CBDF0BD1E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2304E72C749ECD49126BC73E25209DCD /* PBXTargetDependency */,
+			);
+			name = "Pods-MSContactsPicker_Example";
+			productName = "Pods-MSContactsPicker_Example";
+			productReference = 830D916D3287F667728E294F27A399D8 /* Pods_MSContactsPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					2815A27BFACE93BE34B7EFC2C0BE710F = {
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3A85A5E627C5AB431158EF0D3DDCB074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2815A27BFACE93BE34B7EFC2C0BE710F /* MSContactsPicker */,
+				EB4A3E9DF8F8DC6FCFC3C4F63D64F2D4 /* Pods-MSContactsPicker_Example */,
+				0710B4FC1374AAC2B1745F668210698C /* Pods-MSContactsPicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FDBD2CA344FFB1D3388DFA970D58CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795DC041D6C428E8F2ED06CBDF0BD1E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806C7D16F82628E0905B58174506E426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009B3BAA244FE3F9007D8211 /* MSContactTableViewCell.xib in Resources */,
+				009B3BAC244FE3F9007D8211 /* MSContactsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3269A1C6C88881C8E2666218AC03F09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2092083D555E48AAA645B6BC26562D8A /* Pods-MSContactsPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A253315C45D396E9A45E410F7BD551F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CF6A27244E9D6700AADD42 /* MSContactsController.swift in Sources */,
+				009B3BAF244FE411007D8211 /* MSContactTableViewCell.swift in Sources */,
+				009B3BAB244FE3F9007D8211 /* MSContactsViewController.swift in Sources */,
+				00CF6A25244E916900AADD42 /* MSContact.swift in Sources */,
+				CF5FCB5805FF98981F0F500401C07C9A /* MSContactsPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8DAB716DE49D84D8E95F462886C136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A91E114A13D2AABEF5B918C1EA0073 /* Pods-MSContactsPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2304E72C749ECD49126BC73E25209DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSContactsPicker;
+			target = 2815A27BFACE93BE34B7EFC2C0BE710F /* MSContactsPicker */;
+			targetProxy = 954C09E727C234C93E2B5BAAEDDCA8A9 /* PBXContainerItemProxy */;
+		};
+		589A58016FDC98AFF6F328F434C2A232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MSContactsPicker_Example";
+			target = EB4A3E9DF8F8DC6FCFC3C4F63D64F2D4 /* Pods-MSContactsPicker_Example */;
+			targetProxy = 15722DF5F92ED91414DEBB3BD9CED26A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C666397800597810C14C0226DB06E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECACFE220452398F1F92E7E2484C80E1 /* Pods-MSContactsPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSContactsPicker_Tests/Pods-MSContactsPicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSContactsPicker_Tests/Pods-MSContactsPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		35A1DB997EDE923F4525938B1C05FB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC54621DE9F81315604F82714C79D80 /* MSContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSContactsPicker/MSContactsPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSContactsPicker/MSContactsPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSContactsPicker/MSContactsPicker.modulemap";
+				PRODUCT_MODULE_NAME = MSContactsPicker;
+				PRODUCT_NAME = MSContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		605DB1BA5AFDF2015DD16B124068686E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DEF3D896BB451BA2F61556BF830B8F /* Pods-MSContactsPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSContactsPicker_Example/Pods-MSContactsPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSContactsPicker_Example/Pods-MSContactsPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		984FC7ED77190B6BFBFE47236B926156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C94BD80333D0972ECCB2E13F1197FC /* Pods-MSContactsPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSContactsPicker_Example/Pods-MSContactsPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSContactsPicker_Example/Pods-MSContactsPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9883A9A5BA3FEDF45A0BEEF05FC56408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC54621DE9F81315604F82714C79D80 /* MSContactsPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSContactsPicker/MSContactsPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSContactsPicker/MSContactsPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSContactsPicker/MSContactsPicker.modulemap";
+				PRODUCT_MODULE_NAME = MSContactsPicker;
+				PRODUCT_NAME = MSContactsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DE115BC6D3BFF1BEAD451DDE22DEA093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B9B5416806CA7F0006A8D75D09115D /* Pods-MSContactsPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSContactsPicker_Tests/Pods-MSContactsPicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSContactsPicker_Tests/Pods-MSContactsPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF34B527F1795421B66F2A25CF854FE /* Build configuration list for PBXNativeTarget "Pods-MSContactsPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605DB1BA5AFDF2015DD16B124068686E /* Debug */,
+				984FC7ED77190B6BFBFE47236B926156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A11934C756F56D754D21EFAEC8F4F17 /* Build configuration list for PBXNativeTarget "MSContactsPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9883A9A5BA3FEDF45A0BEEF05FC56408 /* Debug */,
+				35A1DB997EDE923F4525938B1C05FB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AB2C75B3B9A676C38E8B51D3493BA5 /* Build configuration list for PBXNativeTarget "Pods-MSContactsPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C666397800597810C14C0226DB06E07 /* Debug */,
+				DE115BC6D3BFF1BEAD451DDE22DEA093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

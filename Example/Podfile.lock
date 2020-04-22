@@ -1,0 +1,16 @@
+PODS:
+  - MSContactsPicker (0.1.0)
+
+DEPENDENCIES:
+  - MSContactsPicker (from `../`)
+
+EXTERNAL SOURCES:
+  MSContactsPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSContactsPicker: 0d45c9b8fdf663d0bec001834780423139091fc9
+
+PODFILE CHECKSUM: 5ee247efde43fd82636f7882df9273b68b1044db
+
+COCOAPODS: 1.8.4
