@@ -18,14 +18,12 @@ public class MSContactsController: NSObject {
         contactsViewController = MSContactsViewController(nibName: "MSContactsViewController", bundle: bundle)
     }
     
-    // push navigation
-    public func push(in viewController: UIViewController) {
-//        viewController.present(navigationController, animated: true, completion: nil)
+    public func push(in navigationController: UINavigationController) {
+        navigationController.pushViewController(contactsViewController!, animated: true)
     }
     
-    // present
     public func present(in viewController: UIViewController) {
-        let navigationController = UINavigationController(rootViewController: contactsViewController ?? UIViewController())
+        let navigationController = UINavigationController(rootViewController: contactsViewController!)
         navigationController.modalPresentationStyle = .fullScreen
         viewController.present(navigationController, animated: true, completion: nil)
     }

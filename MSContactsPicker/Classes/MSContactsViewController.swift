@@ -22,8 +22,15 @@ public class MSContactsViewController: UIViewController {
         
         self.loadContacts()
         
+        let closeBarButtonItem = UIBarButtonItem(title: "SALIR", style: .done, target: self, action: #selector(closeModal))
+        self.navigationItem.leftBarButtonItem  = closeBarButtonItem
+    }
+    
+    @objc func closeModal() {
+        self.dismiss(animated: true, completion: nil)
     }
 }
+
 
 // MARK: - Private
 extension MSContactsViewController {
